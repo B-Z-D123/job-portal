@@ -1,0 +1,222 @@
+export const mockJobs = [
+  {
+    id: 1,
+    position: '前端开发工程师',
+    company: '字节跳动',
+    logo: 'https://picsum.photos/seed/byte/80/80',
+    salary: '20-35K',
+    city: '北京',
+    isUrgent: true,
+    isFavorite: false,
+    description: '负责抖音Web端功能开发，要求熟练掌握Vue 3、TypeScript，有大型项目经验者优先。'
+  },
+  {
+    id: 2,
+    position: 'Java后端开发',
+    company: '阿里巴巴',
+    logo: 'https://picsum.photos/seed/ali/80/80',
+    salary: '18-30K',
+    city: '杭州',
+    isUrgent: true,
+    isFavorite: false,
+    description: '参与电商平台订单系统开发，要求熟悉Spring Boot、MySQL、微服务架构。'
+  },
+  {
+    id: 3,
+    position: '数据分析师',
+    company: '腾讯',
+    logo: 'https://picsum.photos/seed/tencent/80/80',
+    salary: '15-25K',
+    city: '深圳',
+    isUrgent: true,
+    isFavorite: false,
+    description: '负责游戏业务数据分析和用户行为研究，要求熟悉Python、SQL、数据可视化工具。'
+  },
+  {
+    id: 4,
+    position: 'UI设计师',
+    company: '美团',
+    logo: 'https://picsum.photos/seed/meituan/80/80',
+    salary: '12-20K',
+    city: '北京',
+    isUrgent: false,
+    isFavorite: false,
+    description: '负责美团App界面设计，要求熟练使用Figma、Sketch，具备良好的视觉设计能力。'
+  },
+  {
+    id: 5,
+    position: '产品经理',
+    company: '百度',
+    logo: 'https://picsum.photos/seed/baidu/80/80',
+    salary: '16-28K',
+    city: '上海',
+    isUrgent: true,
+    isFavorite: false,
+    description: '负责AI产品的需求分析和功能设计，要求熟悉产品设计流程，有技术背景优先。'
+  },
+  {
+    id: 6,
+    position: '测试开发工程师',
+    company: '网易',
+    logo: 'https://picsum.photos/seed/netease/80/80',
+    salary: '14-24K',
+    city: '杭州',
+    isUrgent: true,
+    isFavorite: false,
+    description: '负责自动化测试平台搭建，要求熟悉Python、Selenium、Jest等测试框架。'
+  },
+  {
+    id: 7,
+    position: '运维工程师',
+    company: '华为',
+    logo: 'https://picsum.photos/seed/huawei/80/80',
+    salary: '15-25K',
+    city: '深圳',
+    isUrgent: false,
+    isFavorite: false,
+    description: '负责云平台监控与故障处理，要求熟悉Linux、Kubernetes、Prometheus。'
+  },
+  {
+    id: 8,
+    position: '算法工程师',
+    company: '商汤科技',
+    logo: 'https://picsum.photos/seed/sensetime/80/80',
+    salary: '25-45K',
+    city: '上海',
+    isUrgent: true,
+    isFavorite: false,
+    description: '负责计算机视觉算法研发，要求熟悉PyTorch、目标检测、模型部署，有论文者优先。'
+  },
+  {
+    id: 9,
+    position: '嵌入式开发工程师',
+    company: '大疆',
+    logo: 'https://picsum.photos/seed/dji/80/80',
+    salary: '18-30K',
+    city: '深圳',
+    isUrgent: false,
+    isFavorite: false,
+    description: '负责无人机飞控固件开发，要求熟悉C/C++、STM32、实时操作系统。'
+  },
+  {
+    id: 10,
+    position: '全栈工程师',
+    company: '小米',
+    logo: 'https://picsum.photos/seed/xiaomi/80/80',
+    salary: '20-32K',
+    city: '北京',
+    isUrgent: true,
+    isFavorite: false,
+    description: '负责IoT管理平台前后端开发，要求熟悉Vue 3、Node.js、MySQL全栈技术。'
+  },
+  {
+    id: 11,
+    position: '运营专员',
+    company: '京东',
+    logo: 'https://picsum.photos/seed/jd/80/80',
+    salary: '8-14K',
+    city: '北京',
+    isUrgent: false,
+    isFavorite: false,
+    description: '负责电商大促活动策划与执行，要求有较强的数据分析能力和沟通能力。'
+  },
+  {
+    id: 12,
+    position: '市场营销专员',
+    company: '拼多多',
+    logo: 'https://picsum.photos/seed/pdd/80/80',
+    salary: '10-18K',
+    city: '上海',
+    isUrgent: false,
+    isFavorite: false,
+    description: '负责品牌推广活动落地，要求熟悉社交媒体运营，有互联网行业经验优先。'
+  },
+  {
+    id: 13,
+    position: '人力资源专员',
+    company: '网易',
+    logo: 'https://picsum.photos/seed/netease-hr/80/80',
+    salary: '9-15K',
+    city: '杭州',
+    isUrgent: false,
+    isFavorite: false,
+    description: '负责技术岗位招聘与员工关系管理，要求熟悉招聘流程，沟通能力强。'
+  },
+  {
+    id: 14,
+    position: '财务专员',
+    company: '字节跳动',
+    logo: 'https://picsum.photos/seed/byte-fin/80/80',
+    salary: '10-16K',
+    city: '北京',
+    isUrgent: false,
+    isFavorite: false,
+    description: '负责日常账务处理与财务报表编制，要求熟悉Excel，持有初级会计证优先。'
+  },
+  {
+    id: 15,
+    position: 'Golang开发工程师',
+    company: '腾讯',
+    logo: 'https://picsum.photos/seed/tencent-go/80/80',
+    salary: '22-38K',
+    city: '深圳',
+    isUrgent: true,
+    isFavorite: false,
+    description: '负责微服务后台开发，要求精通Golang，熟悉高并发、分布式系统设计。'
+  },
+  {
+    id: 16,
+    position: 'Python开发工程师',
+    company: '快手',
+    logo: 'https://picsum.photos/seed/kuaishou/80/80',
+    salary: '20-35K',
+    city: '北京',
+    isUrgent: false,
+    isFavorite: false,
+    description: '负责推荐系统数据流水线开发，要求熟悉Python、Spark、Kafka。'
+  },
+  {
+    id: 17,
+    position: '安卓开发工程师',
+    company: 'OPPO',
+    logo: 'https://picsum.photos/seed/oppo/80/80',
+    salary: '16-28K',
+    city: '深圳',
+    isUrgent: true,
+    isFavorite: false,
+    description: '负责系统应用开发与性能优化，要求熟悉Java/Kotlin、Android Framework。'
+  },
+  {
+    id: 18,
+    position: 'iOS开发工程师',
+    company: '蔚来',
+    logo: 'https://picsum.photos/seed/nio/80/80',
+    salary: '18-30K',
+    city: '上海',
+    isUrgent: false,
+    isFavorite: false,
+    description: '负责车机互联App开发，要求熟悉Swift、Objective-C，有车联网经验优先。'
+  },
+  {
+    id: 19,
+    position: '数据库工程师',
+    company: '饿了么',
+    logo: 'https://picsum.photos/seed/eleme/80/80',
+    salary: '17-28K',
+    city: '上海',
+    isUrgent: true,
+    isFavorite: false,
+    description: '负责数据库性能调优与高可用架构，要求熟悉MySQL、Redis、分库分表方案。'
+  },
+  {
+    id: 20,
+    position: '游戏策划',
+    company: '米哈游',
+    logo: 'https://picsum.photos/seed/mihoyo/80/80',
+    salary: '13-22K',
+    city: '上海',
+    isUrgent: false,
+    isFavorite: false,
+    description: '负责开放世界玩法系统设计，要求热爱二次元游戏，有完整项目上线经验优先。'
+  }
+]
